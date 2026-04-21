@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kebek Guta, Software Engineering student and Full Stack Developer.">
+    <title>Kebek Guta | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Abstract Background Shapes -->
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-text">Kebi G</span><span class="neon-dot">.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="greeting">Hello!,</div>
+                <h1 class="glitch" data-text="I'm Kebek Guta">
+                    I'm <span class="neon-text">Kebek Guta</span>
+                </h1>
+                
+                <!-- CSS Typing Animation Container -->
+                <div class="typing-container">
+                    <span class="typing-static">A passionate </span>
+                    <div class="typing-words">
+                        <span class="word">Web Developer</span>
+                        <span class="word">Problem Solver</span>
+                        <span class="word">Student</span>
+                    </div>
+                </div>
+
+                <p class="intro-description">
+                    I'm a Software Engineering student at ASTU and a dedicated full stack developer who enjoys building modern web applications and solving real-world problems.
+                </p>
+
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="glow-ring"></div>
+                    <div class="profile-wrapper">
+                        <img src="Kebi.png" alt="Kebek Guta" class="profile-img">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <a href="#about" class="scroll-indicator">
+                <div class="mouse"></div>
+                <i class="fas fa-angles-down bounce"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section animate-scroll">
+            <h2 class="section-title">About <span class="neon-text">Me</span></h2>
+            <div class="glass-card about-card">
+                <div class="about-content">
+                    <p>I am a Software Engineering student at <span class="highlight">Adama Science and Technology University (ASTU)</span> with a strong foundation in full stack development. My journey in tech is driven by an insatiable curiosity to understand how things work under the hood.</p>
+                    <p>I blend my web development skills with Problem Solving principles, allowing me to build applications that are not just visually stunning and functionally robust, but also highly secure. Always open to embracing new challenges and learning cutting-edge technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section animate-scroll">
+            <h2 class="section-title">Tech <span class="neon-text">Stack</span></h2>
+            
+            <div class="skills-grid">
+                
+                <!-- Core Languages -->
+                <div class="glass-card skills-category">
+                    <h3 class="category-title"><i class="fas fa-code"></i> Programming & Web</h3>
+                    <div class="icon-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5 skill-icon html-icon"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt skill-icon css-icon"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js skill-icon js-icon"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python skill-icon py-icon"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java skill-icon java-icon"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon sql-icon"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="glass-card skills-category">
+                    <h3 class="category-title"><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="icon-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-github skill-icon git-icon"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-linux skill-icon linux-icon"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section animate-scroll">
+            <h2 class="section-title">Featured <span class="neon-text">Projects</span></h2>
+            
+            <div class="projects-container">
+                
+                <!-- Project 1 -->
+                <div class="glass-card project-card">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <i class="fas fa-users-cog project-icon"></i>
+                            <h3>Student Registration Web App</h3>
+                        </div>
+                        <p class="project-desc">
+                            A Java Servlet-based web application that allows users to register students, store details securely in a database, and view all registered students in a dynamic table.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Java Servlets</span>
+                            <span class="tag">JSP</span>
+                            <span class="tag">JDBC</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Tomcat</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-overlay">
+                        <a href="https://github.com/yahwe388-droid/AP_PROJECT.git" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card project-card">
+                    <div class="project-info">
+                        <div class="project-header">
+                            <i class="fas fa-school project-icon"></i>
+                            <h3>Chat Application</h3>
+                        </div>
+                        <p class="project-desc">
+                            A real-time chat application built with Java using socket programming to enable efficient client-server communication. The system supports multiple concurrent users through multithreading, ensuring low-latency message delivery and reliable performance.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">Socket Programming</span>
+                            <span class="tag">Multithreading</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-overlay">
+                        <a href="https://github.com/yahwe388-droid/ChatAppProject.git" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-github"></i> Repository
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section animate-scroll">
+            <h2 class="section-title">Get In <span class="neon-text">Touch</span></h2>
+            
+            <div class="glass-card contact-wrapper">
+                <h3 class="contact-heading">Let's build something together</h3>
+                <p class="contact-text">
+                    I'm currently looking for new opportunities as a developer. Whether you have a project, a question, or just want to connect, feel free to say hello!
+                </p>
+                <div class="contact-actions">
+                    <a href="mailto:kebi12447@gmail.com" class="btn btn-primary btn-large glow-effect">
+                        <i class="fas fa-envelope"></i> Send an Email
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/yahwe388-droid" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/keby_kebon24" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="https://t.me/urgkymdft" class="social-icon"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="https://instagram.com/kebi518" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Kebi G.</div>
+            <p>&copy; 2026 Kebek Guta. Crafted entirely with HTML,CSS & JavaScript.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
