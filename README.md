@@ -1,67 +1,52 @@
-# 🚀 Kebek Guta - Portfolio Website
+# Kebek Guta | Full-Stack Developer Portfolio
 
-A modern, responsive portfolio website showcasing my journey as a Software Engineering student and Full Stack Developer. Built with cutting-edge web technologies and featuring a sleek glassmorphism design with neon accents.
+Hi! I'm **Kebek Guta**, a **Full-Stack Developer and Problem Solver**, currently a **3rd-year Software Engineering student at ASTU**.
+
+This portfolio showcases my **technical skills, projects, and services**, demonstrating my ability to build **scalable, efficient, and user-friendly applications**. I focus on writing clean code, applying modern development practices, and solving real-world problems through technology.
+
+---
+
+## 🚀 Live Demo
+👉 Explore my portfolio project here:  
+[https://github.com/yahwe388-droid/My_pOrtfolio.git ](https://yahwe388-droid.github.io/My_pOrtfolio/) 
+
+---
 
 ## ✨ Features
 
-- **Modern Glassmorphism Design** - Sleek glass-like UI elements with subtle transparency
-- **Responsive Layout** - Optimized for all devices (desktop, tablet, mobile)
-- **Smooth Animations** - CSS transitions and JavaScript-powered scroll reveals
-- **Interactive Elements** - Typing animation, parallax effects, and button ripple effects
-- **Dark Theme** - Space-themed color palette with neon accent colors
-- **Fast Performance** - Optimized CSS and vanilla JavaScript implementation
-- **Accessibility** - Semantic HTML and keyboard navigation support
+- 💻 **Professional Hero Section** with profile introduction  
+- ⚡ **Interactive and modern UI design**  
+- 🖥️ **Services section** outlining development capabilities  
+- 🛠️ **Skills section** highlighting my tech stack  
+- 📂 **Projects section** with GitHub repositories  
+- 📊 **GitHub integration** to showcase coding activity  
+- 📬 **Contact form** for collaboration and opportunities  
+- 🤖 **Basic AI chatbot** for user interaction  
+- 🌙 **Theme switcher** (Dark / Light / Custom themes)  
+- 📱 **Fully responsive design** for all devices  
+
+---
+
+## 📂 Projects
+
+### 1. Student Registration System
+- **Description:** A Java Servlet-based web application for managing student registration, built using JSP, JDBC, and MySQL.  
+- **GitHub:** https://github.com/yahwe388-droid/AP_PROJECT.git  
+
+### 2. Chat Application
+- **Description:** A real-time chat application designed for seamless communication, showcasing backend integration and dynamic user interaction.  
+- **GitHub:** https://github.com/yahwe388-droid/ChatAppProject.git  
+
+---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-- **HTML5** - Semantic markup and structure
-- **CSS3** - Modern styling with CSS Grid, Flexbox, and custom properties
-- **JavaScript (ES6+)** - Interactive functionality and DOM manipulation
+**Languages:** HTML, CSS, JavaScript, Python, Java, SQL  
+**Frameworks & Tools:** Node.js, MongoDB, Git, GitHub, Linux  
 
-### Design & Assets
-- **Google Fonts** - Inter and Outfit font families
-- **Font Awesome** - Icon library for social links and skill badges
-- **Custom Illustrations** - Abstract background shapes and profile image
-
-### Development Tools
-- **VS Code** - Primary code editor
-- **Git** - Version control
-- **GitHub** - Repository hosting
-
-
-### 👨‍💻 About Section
-- Personal introduction and background
-- Education details (ASTU Software Engineering)
-- Passion for problem-solving and web development
-
-### 🛠️ Skills Section
-- **Programming & Web**: HTML5, CSS3, JavaScript, Python, Java, SQL
-- **Tools & Platforms**: GitHub, Linux
-- Interactive skill icons with hover effects
-
-### 💼 Projects Section
-- **Student Registration Web App** - Java Servlets, JSP, JDBC, MySQL
-- **Chat Application** - Java socket programming with multithreading
-- GitHub repository links for each project
-
-### 📞 Contact Section
-- Direct email contact
-- Social media links (GitHub, Twitter, Telegram, Instagram)
-- Professional networking invitation
-
-## 🎨 Design Philosophy
-
-This portfolio embodies modern web design principles:
-
-- **Glassmorphism**: Subtle transparency and blur effects
-- **Neon Accents**: Cyberpunk-inspired color scheme
-- **Minimalism**: Clean layout with purposeful white space
-- **Performance**: Lightweight code with smooth 60fps animations
-- **Accessibility**: WCAG compliant color contrasts and navigation
-
+---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
-
+This project is maintained by:  
+👉 https://github.com/yahwe388-droid
